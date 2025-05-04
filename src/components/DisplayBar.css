@@ -1,0 +1,11 @@
+.DisplayBar {
+    border: solid 5px #072C0A;
+    border-left: solid 13px #072C0A;
+    border-right: solid 13px #072C0A;
+    margin:5px;
+    font-size: 45px;
+    letter-spacing: 17px;
+    height: 13%;
+    color: #508551;
+    padding-bottom:2.5%;
+}

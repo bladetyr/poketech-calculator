@@ -1,0 +1,72 @@
+.Outer {
+    background-color: #E7E7E7;
+    border-radius: 45%;
+    width: 50%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 0 0 20px #FA5B60; /* Simulates a border using box-shadow */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MidBar {
+    width: 20%;
+    height: 100%;
+    background-color: #313131;
+    border: solid #1D1F1E;
+    border-width: 10px;
+    position:absolute;
+    z-index: 0;
+}
+
+.Screen {
+    width: 55%;
+    height: 70%;
+    background-color: #73B673;
+    border: solid #040207;
+    text-align: center;
+    z-index: 1;
+}
+
+.TopSideButton {
+    box-shadow: 0 0 0 5px #040207;
+    background-color: #FF4149;
+    border-top-right-radius: 50%;
+    height: 50%;
+    width: 40%;
+    margin-left: 10%;
+}
+
+.BottomSideButton {
+    box-shadow: 0 0 0 5px #040207;
+    background-color: #FF4149;
+    border-bottom-right-radius: 50%;
+    height: 50%;
+    width: 40%;
+    margin-left: 10%;
+}
+
+.LeftSideButton {
+    box-shadow: 0 0 0 5px #040207;
+    background-color: #FF4149;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    height: 51%;
+    width: 9%;
+    margin-left: 10%;
+    position: absolute;
+    left: -3%;
+}
+
+.ButtonColumn {
+    position: absolute;
+    right: -2%;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 20%;
+    z-index: 2;
+}
