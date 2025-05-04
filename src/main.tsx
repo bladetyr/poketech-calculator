@@ -5,7 +5,6 @@ import Poketech from './components/Poketech.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    {/*<App />*/}
     <Poketech />
   </StrictMode>,
 )
